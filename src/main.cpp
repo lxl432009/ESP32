@@ -23,6 +23,7 @@
 int ledState = LED_OFF;
 bool needReportStatus = true;
 int ledStateMapOutput[2] = {HIGH, LOW}; // ESP32Devkitc built-in LED output flip
+// int ledStateMapOutput[2] = {LOW, HIGH}; // FireBeetle built-in LED output flip
 
 unsigned long lastMqttConnectMs = 0;
 
