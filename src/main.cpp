@@ -4,12 +4,13 @@
 #include <WiFi.h>
 
 // https://techtutorialsx.com/2017/06/29/esp32-arduino-getting-started-with-wifi/
-#define WIFI_SSID "<YOUR WIFI>"
-#define WIFI_PASSWD "<WIFI PASS>"
+#define WIFI_SSID "TP-LINK_BC67"
+#define WIFI_PASSWD "liu88837818"
 
-#define PRODUCT_KEY "<PK>"
-#define DEVICE_NAME "<DN>"
-#define DEVICE_SECRET "<DS>"
+
+#define PRODUCT_KEY             "a11uHDWlyw3"
+#define DEVICE_NAME             "esp32Light"
+#define DEVICE_SECRET           "aSEImRqGBNOUzijDUHDi1suF3Ai6grk1"
 
 #define ALINK_BODY_FORMAT "{\"id\":\"%u\",\"version\":\"1.0\",\"method\":\"%s\",\"params\":%s}"
 #define ALINK_TOPIC_PROP_POST "/sys/" PRODUCT_KEY "/" DEVICE_NAME "/thing/event/property/post"
